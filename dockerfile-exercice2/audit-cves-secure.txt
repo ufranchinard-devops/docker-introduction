@@ -1,0 +1,88 @@
+﻿
+
+## Overview
+
+                   Ôöé                   Analyzed Image                   
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö╝ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+ Target            Ôöé  quiz-docker:secure                                
+   digest          Ôöé  38dda4ad38d9                                      
+   platform        Ôöé linux/amd64                                        
+   provenance      Ôöé https://github.com/nginx/docker-nginx-unprivileged 
+                   Ôöé  https://github.com/nginx/docker-nginx-unprivileged/blob/bb7393196554e11f7ba95452856d8b5faff217bf          
+   vulnerabilities Ôöé    5C     2H     4M     0L                         
+   size            Ôöé 29 MB                                              
+   packages        Ôöé 26                                                 
+
+
+## Packages and Vulnerabilities
+
+   5C     1H     4M     0L  nginx 1.30.6-r1
+pkg:apk/alpine/nginx@1.30.6-r1?os_name=alpine&os_version=3.24
+
+    x CRITICAL CVE-2026-123634
+      https://scout.docker.com/v/CVE-2026-123634?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x CRITICAL CVE-2026-123633
+      https://scout.docker.com/v/CVE-2026-123633?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x CRITICAL CVE-2026-123007
+      https://scout.docker.com/v/CVE-2026-123007?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x CRITICAL CVE-2026-121810
+      https://scout.docker.com/v/CVE-2026-121810?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x CRITICAL CVE-2026-113425
+      https://scout.docker.com/v/CVE-2026-113425?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x HIGH CVE-2026-118899
+      https://scout.docker.com/v/CVE-2026-118899?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x MEDIUM CVE-2026-132779
+      https://scout.docker.com/v/CVE-2026-132779?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.8-r0
+      Affected range : <1.30.8-r0 
+      Fixed version  : 1.30.8-r0  
+    
+    x MEDIUM CVE-2026-125283
+      https://scout.docker.com/v/CVE-2026-125283?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x MEDIUM CVE-2026-123640
+      https://scout.docker.com/v/CVE-2026-123640?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+    x MEDIUM CVE-2026-120967
+      https://scout.docker.com/v/CVE-2026-120967?s=alpine&n=nginx&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.30.7-r0
+      Affected range : <1.30.7-r0 
+      Fixed version  : 1.30.7-r0  
+    
+
+   0C     1H     0M     0L  musl 1.2.6-r3
+pkg:apk/alpine/musl@1.2.6-r3?os_name=alpine&os_version=3.24
+
+    x HIGH CVE-2026-107891
+      https://scout.docker.com/v/CVE-2026-107891?s=alpine&n=musl&ns=alpine&t=apk&osn=alpine&osv=3.24&vr=%3C1.2.6-r6
+      Affected range : <1.2.6-r6 
+      Fixed version  : 1.2.6-r6  
+    
+
+
+11 vulnerabilities found in 2 packages
+  CRITICAL  5 
+  HIGH      2 
+  MEDIUM    4 
+  LOW       0 
+

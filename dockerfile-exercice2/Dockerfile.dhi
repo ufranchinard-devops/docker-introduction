@@ -1,0 +1,12 @@
+# ---- Etape 1 : build avec la DHI Node (variante dev) ----
+FROM dhi.io/node:24-dev AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+# ---- Etape 2 : runtime avec la DHI Nginx ----
+FROM dhi.io/nginx:1.31.10-debian13
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 8080
